@@ -49,7 +49,7 @@ const OtherServices = () => {
         <SectionHeading
           sx={styles.heading}
           title="Technologies I used before"
-          description=" I'm not very good at all. But I know about them. I improved myself especially on react native and node/express. I'm trying to keep up with new technologies."
+          description="I improved myself especially on react native and node/express. I'm trying to keep up with new technologies."
         />
         <Box sx={styles.contentWrapper}>
           {data?.map((item) => (
