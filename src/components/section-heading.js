@@ -2,9 +2,14 @@
 /** @jsx jsx */
 import { FaGithub } from "react-icons/fa";
 import { Link } from "react-scroll";
-import { jsx, Box, Heading, Text } from "theme-ui";
+import { jsx, Box, Heading, Text, Button } from "theme-ui";
 
 const SectionHeading = ({ ui, title, description, icon, ...props }) => {
+  const newTab = (event) => {
+    event.preventDefault();
+
+    window.open(ui);
+  };
   return (
     <Box sx={styles.heading} {...props}>
       <Heading sx={styles.title}>{title}</Heading>
@@ -12,9 +17,9 @@ const SectionHeading = ({ ui, title, description, icon, ...props }) => {
         {description}
       </Text>
       {icon ? (
-        <Link href={ui} key="instauri">
-          <FaGithub size="28px" color="#161614" />
-        </Link>
+        <Button variant="text" sx={styles.getStartedDesktop} onClick={newTab}>
+          <FaGithub size="18px" color="#161614" />
+        </Button>
       ) : null}
     </Box>
   );
