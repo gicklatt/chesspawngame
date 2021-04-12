@@ -13,6 +13,7 @@ import Blog from "sections/blog";
 import CoreFeature from "sections/core-feature";
 import Instaclone from "sections/instagramclone";
 import Twitterclone from "sections/twitterclone";
+import Movieapp from "sections/movieapp";
 
 export default function IndexPage() {
   return (
@@ -27,6 +28,7 @@ export default function IndexPage() {
         <WhyUs />
         <Instaclone />
         <Twitterclone />
+        <Movieapp />
         {/*<Testimonials />*/}
         {/*<OurTeam />*/}
         {/*<Services />*/}
