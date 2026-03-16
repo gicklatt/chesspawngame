@@ -10,7 +10,7 @@ import shapePattern from "assets/images/shape-pattern2.png";
 
 const data = {
   subTitle: "hi",
-  title: "I'm Akif",
+  title: "I'm Akif Sarı",
   description:
     "A Frontend Developer. I specialise in creating interactive experiences and functional interfaces using React and React Native. I develop Backend services using Node, Express",
   btnName: "",
