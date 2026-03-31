@@ -32,7 +32,9 @@ export default function Hero() {
 
             <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center lg:justify-start">
               <a
-                href="#download"
+                href="https://apps.apple.com/us/app/chesspawn/id6760585822"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="group flex items-center gap-3 rounded-2xl bg-white px-7 py-4 shadow-xl transition-all hover:-translate-y-0.5 hover:shadow-2xl"
               >
                 <svg
@@ -53,7 +55,9 @@ export default function Hero() {
               </a>
 
               <a
-                href="#download"
+                href="https://play.google.com/store/apps/details?id=com.gicklatt.chesspawn"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="group flex items-center gap-3 rounded-2xl bg-white px-7 py-4 shadow-xl transition-all hover:-translate-y-0.5 hover:shadow-2xl"
               >
                 <svg
