@@ -224,10 +224,10 @@ export default function PrivacyPolicy() {
             </p>
             <p className="mt-2">
               <a
-                href="mailto:support@chesspawngame.com"
+                href="mailto:gicklatt@gmail.com"
                 className="text-deft-600 underline"
               >
-                support@chesspawngame.com
+                gicklatt@gmail.com
               </a>
             </p>
           </section>

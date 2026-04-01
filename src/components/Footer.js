@@ -20,7 +20,7 @@ export default function Footer() {
               Privacy Policy
             </Link>
             <a
-              href="mailto:support@chesspawngame.com"
+              href="mailto:gicklatt@gmail.com"
               className="text-gray-600 transition-colors hover:text-deft-600"
             >
               Support
