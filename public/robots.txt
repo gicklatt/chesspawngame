@@ -1,2 +1,4 @@
 User-agent: *
-Sitemap: https://example.io/sitemap.xml
+Allow: /
+
+Sitemap: https://gicklatt.github.io/chesspawngame/sitemap.xml
