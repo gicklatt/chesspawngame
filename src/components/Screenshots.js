@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useRef } from "react";
+import { basePath } from "../config";
 
 const screenshots = [
   { src: "/screenshots/home.png", alt: "Home Screen", label: "Home" },
@@ -103,7 +104,7 @@ export default function Screenshots() {
               <div key={shot.label} className="flex-shrink-0">
                 <div className="w-[220px] overflow-hidden rounded-[2rem] border-[4px] border-deft-600/50 bg-deft-900 shadow-xl sm:w-[240px]">
                   <Image
-                    src={shot.src}
+                    src={`${basePath}${shot.src}`}
                     alt={shot.alt}
                     width={240}
                     height={520}

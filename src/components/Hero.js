@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { basePath } from "../config";
 
 export default function Hero() {
   return (
@@ -135,7 +136,7 @@ export default function Hero() {
               <div className="absolute -inset-4 rounded-[3rem] bg-gradient-to-br from-gold-400/20 to-transparent blur-2xl" />
               <div className="relative w-[260px] overflow-hidden rounded-[2.5rem] border-[6px] border-deft-900/50 bg-deft-900 shadow-2xl sm:w-[280px]">
                 <Image
-                  src="/screenshots/gameplay.png"
+                  src={`${basePath}/screenshots/gameplay.png`}
                   alt="ChessPawn Chess Puzzle - Gameplay"
                   width={280}
                   height={607}
