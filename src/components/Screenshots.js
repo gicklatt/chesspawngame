@@ -5,28 +5,12 @@ import { useRef } from "react";
 import { basePath } from "../config";
 
 const screenshots = [
-  { src: "/screenshots/home.png", alt: "Home Screen", label: "Home" },
-  {
-    src: "/screenshots/gameplay.png",
-    alt: "Gameplay - Chess Board",
-    label: "Gameplay",
-  },
-  {
-    src: "/screenshots/levels.png",
-    alt: "Level Selection",
-    label: "Levels",
-  },
-  {
-    src: "/screenshots/tutorial.png",
-    alt: "Tutorial",
-    label: "Tutorial",
-  },
-  { src: "/screenshots/shop.png", alt: "Shop & Themes", label: "Shop" },
-  {
-    src: "/screenshots/daily-spin.png",
-    alt: "Daily Spin Wheel",
-    label: "Daily Spin",
-  },
+  { src: "/screenshots/gameplay.webp", alt: "ChessPawn 1.1.0 gameplay with Berry Crown pieces", label: "Capture Every Pawn" },
+  { src: "/screenshots/strategy.webp", alt: "ChessPawn puzzle with Jade Garden pieces", label: "Plan Your Route" },
+  { src: "/screenshots/levels.webp", alt: "ChessPawn level selection", label: "400 Puzzles" },
+  { src: "/screenshots/themes.webp", alt: "ChessPawn board theme selection", label: "12 Board Themes" },
+  { src: "/screenshots/pieces.webp", alt: "ChessPawn piece collection selection", label: "6 Piece Collections" },
+  { src: "/screenshots/rewards.webp", alt: "ChessPawn daily spin wheel", label: "Daily Rewards" },
 ];
 
 export default function Screenshots() {
@@ -107,7 +91,7 @@ export default function Screenshots() {
                     src={`${basePath}${shot.src}`}
                     alt={shot.alt}
                     width={240}
-                    height={520}
+                    height={521}
                     className="h-auto w-full"
                   />
                 </div>

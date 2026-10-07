@@ -8,8 +8,8 @@ by [Gicklatt](https://gicklatt.github.io).
 ## About the game
 
 Think like a chess master, solve like a puzzle genius. Capture every pawn
-using chess-movement cards across 400 handcrafted levels, daily
-challenges, weekly events and 12 board themes.
+using chess-movement cards across 400 puzzles, daily challenges,
+weekly events, 12 board themes and six piece collections.
 
 - [App Store](https://apps.apple.com/us/app/chesspawn/id6760585822)
 - [Google Play](https://play.google.com/store/apps/details?id=com.gicklatt.chesspawn)

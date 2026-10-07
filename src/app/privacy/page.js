@@ -3,6 +3,7 @@ import Link from "next/link";
 export const metadata = {
   title: "Privacy Policy - ChessPawn Chess Puzzle Game",
   description: "Privacy Policy for ChessPawn Chess Puzzle Game",
+  alternates: { canonical: "https://gicklatt.github.io/chesspawngame/privacy/" },
 };
 
 export default function PrivacyPolicy() {
@@ -24,7 +25,7 @@ export default function PrivacyPolicy() {
           Privacy Policy
         </h1>
         <p className="mb-10 text-sm text-gray-500">
-          Last updated: March 16, 2026
+          Last updated: October 7, 2026
         </p>
 
         <div className="space-y-8 text-gray-700 leading-relaxed">
@@ -36,9 +37,9 @@ export default function PrivacyPolicy() {
               This Privacy Policy describes how ChessPawn (&quot;we&quot;,
               &quot;our&quot;, or &quot;us&quot;) collects, uses, and shares
               information when you use our mobile application ChessPawn - Chess
-              Puzzle Game (the &quot;App&quot;). By using the App, you agree to
-              the collection and use of information in accordance with this
-              policy.
+              Puzzle Game (the &quot;App&quot;), published by Gicklatt / Akif Sarı.
+              This policy explains local game storage and data processed by
+              the advertising and consent services used in version 1.1.0.
             </p>
           </section>
 
@@ -57,12 +58,15 @@ export default function PrivacyPolicy() {
                 information.
               </li>
               <li>
-                <strong>Usage Data:</strong> Game progress, levels completed,
-                scores, achievements, and in-app activity.
+                <strong>Advertising interactions:</strong> Ad impressions,
+                clicks, video views, and related app or device interactions
+                processed by Google&apos;s advertising SDK.
               </li>
               <li>
-                <strong>Analytics Data:</strong> App usage patterns, session
-                duration, crash reports, and performance data.
+                <strong>Diagnostics:</strong> Crash reports, technical details,
+                and performance data processed by the advertising SDK. We do
+                not use Firebase Analytics or upload your level progress to
+                an analytics service.
               </li>
             </ul>
 
@@ -84,17 +88,23 @@ export default function PrivacyPolicy() {
             </h2>
             <p>
               Our App displays advertisements provided by Google AdMob. AdMob
-              may collect and use certain data to provide personalized
-              advertisements. This includes:
+              processes data to deliver, measure, and secure advertisements,
+              including fraud prevention. ChessPawn requests non-personalized
+              ads; these ads still involve data processing. This includes:
             </p>
             <ul className="ml-6 mt-2 list-disc space-y-2">
-              <li>Advertising identifiers (IDFA on iOS, GAID on Android)</li>
-              <li>Device information and IP address</li>
+              <li>Device and app identifiers; the Android advertising ID when available</li>
+              <li>Device information and IP address, which may be used to infer approximate location</li>
               <li>Ad interaction data (impressions, clicks)</li>
+              <li>Crash, diagnostic, and performance data</li>
             </ul>
             <p className="mt-3">
-              You can opt out of personalized advertising through your device
-              settings. For more information about how Google uses data, please
+              The app does not request App Tracking Transparency permission or
+              access to IDFA on iOS. Where required, Google&apos;s User Messaging
+              Platform presents consent choices before ads are requested. You
+              can revisit available choices under Settings → Privacy choices.
+              Device settings also let you restrict or reset advertising IDs.
+              For more information about how Google uses data, please
               visit{" "}
               <a
                 href="https://policies.google.com/privacy"
@@ -114,7 +124,8 @@ export default function PrivacyPolicy() {
             </h2>
             <p>
               The App offers optional rewarded video advertisements that provide
-              in-game coins when viewed. Watching rewarded ads is entirely
+              in-game coins or optional gameplay helpers when completed.
+              Watching rewarded ads is entirely
               voluntary and not required to play the game.
             </p>
           </section>
@@ -127,7 +138,10 @@ export default function PrivacyPolicy() {
               All game progress data (levels completed, coins earned, settings,
               and preferences) is stored locally on your device. We do not store
               your game data on external servers. If you uninstall the App, your
-              local game data will be deleted.
+              local game data will be deleted, subject to any device backup
+              you maintain. Advertising and consent data may be transmitted
+              to Google and its advertising partners and retained under their
+              policies. We do not control their retention periods.
             </p>
           </section>
 
@@ -141,8 +155,11 @@ export default function PrivacyPolicy() {
                 <strong>Google AdMob:</strong> For displaying advertisements.
               </li>
               <li>
-                <strong>Firebase Analytics:</strong> For understanding app usage
-                and improving user experience.
+                <strong>Google User Messaging Platform:</strong> For managing
+                advertising consent and privacy choices. It processes device
+                information, approximate location from IP address, interaction
+                data, and technical performance information to operate consent
+                messages.
               </li>
             </ul>
             <p className="mt-3">
@@ -156,10 +173,13 @@ export default function PrivacyPolicy() {
               7. Children&apos;s Privacy
             </h2>
             <p>
-              ChessPawn is rated 4+ (iOS) / Everyone (Android). We do not knowingly
-              collect personal information from children. The game does not
-              require any personal data to play. Advertisements shown comply
-              with applicable regulations for family-friendly content.
+              ChessPawn is intended for users aged 13 and older and is not
+              directed to children under 13. Store content ratings describe the
+              game&apos;s content and are different from its intended audience.
+              We do not knowingly collect personal information from children
+              under 13. Contact us if you believe such information has been
+              provided. Advertising requests use Google&apos;s G maximum content
+              rating.
             </p>
           </section>
 
@@ -180,11 +200,9 @@ export default function PrivacyPolicy() {
             </h2>
             <p>You have the right to:</p>
             <ul className="ml-6 mt-2 list-disc space-y-2">
-              <li>Opt out of personalized advertising via device settings</li>
+              <li>Manage available advertising consent choices in the app&apos;s Settings</li>
               <li>Reset your advertising identifier</li>
-              <li>
-                Delete all local data by uninstalling the App
-              </li>
+              <li>Reset level progress in Settings or delete local app data by uninstalling</li>
               <li>
                 Request information about data collected by contacting us
               </li>
@@ -198,8 +216,9 @@ export default function PrivacyPolicy() {
             <p>
               The core puzzle gameplay functions offline without an internet
               connection. Internet is only required for displaying
-              advertisements, syncing daily challenges, and accessing weekly
-              events.
+              advertisements and online consent messages. Daily puzzles and
+              game progress are generated or stored on your device; the app
+              does not synchronize them with a game server.
             </p>
           </section>
 

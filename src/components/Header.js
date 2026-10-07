@@ -2,6 +2,8 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
+import { basePath } from "../config";
 
 const navLinks = [
   { href: "#features", label: "Features" },
@@ -29,7 +31,7 @@ export default function Header() {
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <Link href="/" className="flex items-center gap-2">
-          <span className="text-3xl">&#9822;</span>
+          <Image src={`${basePath}/app-icon.png`} width={42} height={42} alt="" className="rounded-xl" />
           <span
             className={`text-2xl font-extrabold tracking-tight transition-colors ${
               scrolled ? "text-deft-700" : "text-white"

@@ -1,7 +1,7 @@
 const features = [
   {
     icon: "\u265C",
-    title: "400 Handcrafted Levels",
+    title: "400 Chess Puzzles",
     description:
       "Progress through 12 difficulty tiers from Tutorial to Final Boss with walls, blocked cells, and multi-card strategies.",
   },
@@ -25,9 +25,9 @@ const features = [
   },
   {
     icon: "\u2738",
-    title: "AI-Powered Hints",
+    title: "Hints & Undo",
     description:
-      "Smart hint system highlights the optimal move so you can learn and improve your strategy.",
+      "Find your next move with a hint, or undo a step and try a different route.",
   },
   {
     icon: "\u26A1",
@@ -37,9 +37,9 @@ const features = [
   },
   {
     icon: "\u265E",
-    title: "4 Piece Sets",
+    title: "6 Piece Collections",
     description:
-      "Unique art styles for your chess pieces. Unlock everything with in-game coins \u2014 no paywalls.",
+      "Berry Crown, Jelly Gems, Biscuit Court, Cloud Toys, Jade Garden and Starlight. Unlock your favorites with in-game coins.",
   },
   {
     icon: "\u2734",
@@ -84,10 +84,10 @@ export default function Features() {
 
         <div className="mt-16 grid grid-cols-2 gap-6 sm:grid-cols-4">
           {[
-            { value: "400+", label: "Levels" },
+            { value: "400", label: "Puzzles" },
             { value: "12", label: "Themes" },
             { value: "10", label: "Languages" },
-            { value: "4", label: "Piece Sets" },
+            { value: "6", label: "Piece Collections" },
           ].map((stat) => (
             <div key={stat.label} className="text-center">
               <div className="text-3xl font-extrabold text-deft-600 sm:text-4xl">

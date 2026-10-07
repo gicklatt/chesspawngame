@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+import { basePath } from "../config";
 
 export default function Footer() {
   return (
@@ -6,7 +8,7 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-6 py-12">
         <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
           <div className="flex items-center gap-2">
-            <span className="text-2xl">&#9822;</span>
+            <Image src={`${basePath}/app-icon.png`} width={40} height={40} alt="" className="rounded-xl" />
             <span className="text-xl font-extrabold tracking-tight text-deft-700">
               ChessPawn
             </span>

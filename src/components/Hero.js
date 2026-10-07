@@ -136,10 +136,10 @@ export default function Hero() {
               <div className="absolute -inset-4 rounded-[3rem] bg-gradient-to-br from-gold-400/20 to-transparent blur-2xl" />
               <div className="relative w-[260px] overflow-hidden rounded-[2.5rem] border-[6px] border-deft-900/50 bg-deft-900 shadow-2xl sm:w-[280px]">
                 <Image
-                  src={`${basePath}/screenshots/gameplay.png`}
+                  src={`${basePath}/screenshots/gameplay.webp`}
                   alt="ChessPawn Chess Puzzle - Gameplay"
                   width={280}
-                  height={607}
+                  height={608}
                   className="h-auto w-full"
                   priority
                 />

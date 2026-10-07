@@ -18,7 +18,7 @@ export default function DownloadCTA() {
           Ready to Challenge Your Mind?
         </h2>
         <p className="mx-auto mb-10 max-w-xl text-lg text-deft-100/70">
-          Download ChessPawn and start solving 400 handcrafted chess puzzles today.
+          Download ChessPawn and start solving 400 chess puzzles today.
           Available on iOS and Android.
         </p>
 
