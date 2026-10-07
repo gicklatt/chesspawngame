@@ -38,6 +38,11 @@ npm run build   # static site exported to ./out
 Every push to `main` triggers `.github/workflows/deploy.yml`, which builds
 the site and publishes `out/` to GitHub Pages.
 
+GitHub Pages is the canonical host. The old `gicklattblog.vercel.app`
+address redirects here through `vercel.json`, including the privacy URL
+used by older installed versions. Keep this redirect deployed while those
+links remain in use.
+
 > The site is served from the `/chesspawngame` sub-path, so `basePath` in
 > `next.config.js` must match the repository name. `next/image` does not
 > add `basePath` to image `src` when images are `unoptimized`, so asset
