@@ -74,12 +74,16 @@ export default function PrivacyPolicy() {
               2.2 Information We Do Not Collect
             </h3>
             <ul className="ml-6 list-disc space-y-2">
-              <li>We do not collect your name, email address, or phone number.</li>
+              <li>The game does not ask for your name, email address, or phone number.</li>
               <li>We do not collect your precise location data.</li>
               <li>
                 We do not require account creation to use the App.
               </li>
             </ul>
+            <p className="mt-3">
+              If you contact support by email, we receive the information you
+              choose to share and use it to respond to your request.
+            </p>
           </section>
 
           <section>
