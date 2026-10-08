@@ -14,6 +14,15 @@ weekly events, 12 board themes and six piece collections.
 - [App Store](https://apps.apple.com/us/app/chesspawn/id6760585822)
 - [Google Play](https://play.google.com/store/apps/details?id=com.gicklatt.chesspawn)
 
+## Shared download link
+
+Use [chesspawngame/#download](https://gicklatt.github.io/chesspawngame/#download)
+for a single download link. Android visitors go to Google Play; iPhone and
+iPad visitors go to the App Store, including iPad desktop browsing mode.
+Desktop and unrecognized devices see both store buttons. Normal visits to
+the homepage stay on the site. The header's Download links use the same
+routing, with standard modified clicks and new-tab links preserved.
+
 ## Tech stack
 
 - **Next.js 15** (App Router) — statically exported (`output: "export"`)
